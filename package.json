@@ -1,0 +1,27 @@
+{
+  "name": "node-music-player",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "MD5": "*",
+    "adm-zip": "*",
+    "async": "*",
+    "express-http-proxy": "^0.3.0",
+    "express.io": "*",
+    "mkdirp": "*",
+    "mobile-detect": "^0.4.3",
+    "musicmetadata": "*",
+    "nedb": "*",
+    "opener": "*",
+    "request": "*",
+    "soundcloud-resolver": "*",
+    "swig": "*",
+    "ytdl-core": "*"
+  },
+  "optionalDependencies": {
+    "fluent-ffmpeg": "~2.0.0-rc1"
+  }
+}
